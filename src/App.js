@@ -5,10 +5,10 @@ import Header from './Components/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-   <h1>Hello World</h1>
-   <Header/>
-   <Footer/>
+    <div className="App" style={{backgroundImage:"url(./Quiz.png)"}}>
+   {/* <h1>Hello World</h1> */}
+   {/* <Header/> */}
+   {/* <Footer/> */}
     </div>
   );
 }
