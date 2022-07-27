@@ -3,9 +3,9 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
-      <Link to="/">Quiz App</Link>
-      <hr/>
+    <div className="header">
+      <Link to="/" className="title">Quiz App</Link>
+      <hr className="divider"/>
     </div>
   )
 }

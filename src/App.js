@@ -8,8 +8,8 @@ function App() {
     <BrowserRouter>
     <div className="app" style={{backgroundImage:"url(./Quiz.png)"}}>
    <Header/>
-   <Footer/>
     </div>
+   <Footer/>
    </BrowserRouter>
   );
 }
