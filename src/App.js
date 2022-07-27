@@ -1,15 +1,16 @@
-
+import {BrowserRouter} from "react-router-dom"
 import './App.css';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="app" style={{backgroundImage:"url(./Quiz.png)"}}>
-   {/* <h1>Hello World</h1> */}
-   {/* <Header/> */}
-   {/* <Footer/> */}
+   <Header/>
+   <Footer/>
     </div>
+   </BrowserRouter>
   );
 }
 
